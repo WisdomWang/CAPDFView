@@ -16,7 +16,6 @@
 #import "PDFImageAnnotation.h"
 #import "UMPDFSearchView.h"
 #import "IQKeyboardManager.h"
-#import "UMPDFSendEmail.h"
 #import "UMReadPDFTopView.h"
 #import "UIButton+zt_adjustImageAndTitle.h"
 #import "TipView.h"
@@ -39,7 +38,6 @@
 @property (nonatomic,strong) UILabel *pageLabel;
 @property (nonatomic,assign) BOOL isShow;
 
-@property (nonatomic,strong) UMPDFSendEmail * emailView;
 @property (nonatomic,strong) UMPDFSearchView * searchView;
 @property (nonatomic,strong) UMPDFOutLineView *alertView;
 
