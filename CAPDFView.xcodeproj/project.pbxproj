@@ -14,6 +14,18 @@
 		0D61C0FD25B136F80093B2EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D61C0FC25B136F80093B2EB /* Assets.xcassets */; };
 		0D61C10025B136F80093B2EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D61C0FE25B136F80093B2EB /* LaunchScreen.storyboard */; };
 		0D61C10325B136F80093B2EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D61C10225B136F80093B2EB /* main.m */; };
+		0D61C10B25B143C30093B2EB /* PDFReadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D61C10A25B143C30093B2EB /* PDFReadViewController.m */; };
+		0D61C11A25B1443B0093B2EB /* UMPDFOutLineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D61C10F25B1443A0093B2EB /* UMPDFOutLineCell.m */; };
+		0D61C11B25B1443B0093B2EB /* PDFImageAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D61C11025B1443B0093B2EB /* PDFImageAnnotation.m */; };
+		0D61C11C25B1443B0093B2EB /* UMPDFSearchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D61C11125B1443B0093B2EB /* UMPDFSearchView.m */; };
+		0D61C11D25B1443B0093B2EB /* UMReadPDFTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D61C11525B1443B0093B2EB /* UMReadPDFTopView.m */; };
+		0D61C11E25B1443B0093B2EB /* UMPDFOutLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D61C11625B1443B0093B2EB /* UMPDFOutLineView.m */; };
+		0D61C11F25B1443B0093B2EB /* UMReadPDFBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D61C11825B1443B0093B2EB /* UMReadPDFBottomView.m */; };
+		0D61C12325B145910093B2EB /* UIColor+ColorHex.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D61C12225B145910093B2EB /* UIColor+ColorHex.m */; };
+		0D61C12625B146590093B2EB /* UIButton+zt_adjustImageAndTitle.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D61C12425B146580093B2EB /* UIButton+zt_adjustImageAndTitle.m */; };
+		0D61C12A25B165500093B2EB /* TipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D61C12925B165500093B2EB /* TipView.m */; };
+		0DF77DC025B679870076EB52 /* 003.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0DF77DBF25B679870076EB52 /* 003.pdf */; };
+		D3B62376B7463B660E6395C5 /* libPods-CAPDFView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B138236471BBF74E6E2300BF /* libPods-CAPDFView.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +41,31 @@
 		0D61C0FF25B136F80093B2EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0D61C10125B136F80093B2EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D61C10225B136F80093B2EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0D61C10925B143C30093B2EB /* PDFReadViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDFReadViewController.h; sourceTree = "<group>"; };
+		0D61C10A25B143C30093B2EB /* PDFReadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDFReadViewController.m; sourceTree = "<group>"; };
+		0D61C10C25B1443A0093B2EB /* UMReadPDFBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMReadPDFBottomView.h; sourceTree = "<group>"; };
+		0D61C10D25B1443A0093B2EB /* UMPDFOutLineCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMPDFOutLineCell.h; sourceTree = "<group>"; };
+		0D61C10E25B1443A0093B2EB /* UMPDFOutLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMPDFOutLineView.h; sourceTree = "<group>"; };
+		0D61C10F25B1443A0093B2EB /* UMPDFOutLineCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMPDFOutLineCell.m; sourceTree = "<group>"; };
+		0D61C11025B1443B0093B2EB /* PDFImageAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFImageAnnotation.m; sourceTree = "<group>"; };
+		0D61C11125B1443B0093B2EB /* UMPDFSearchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMPDFSearchView.m; sourceTree = "<group>"; };
+		0D61C11225B1443B0093B2EB /* UMReadPDFTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMReadPDFTopView.h; sourceTree = "<group>"; };
+		0D61C11325B1443B0093B2EB /* PDFImageAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFImageAnnotation.h; sourceTree = "<group>"; };
+		0D61C11425B1443B0093B2EB /* UMPDFSearchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMPDFSearchView.h; sourceTree = "<group>"; };
+		0D61C11525B1443B0093B2EB /* UMReadPDFTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMReadPDFTopView.m; sourceTree = "<group>"; };
+		0D61C11625B1443B0093B2EB /* UMPDFOutLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMPDFOutLineView.m; sourceTree = "<group>"; };
+		0D61C11825B1443B0093B2EB /* UMReadPDFBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMReadPDFBottomView.m; sourceTree = "<group>"; };
+		0D61C12125B145910093B2EB /* UIColor+ColorHex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+ColorHex.h"; sourceTree = "<group>"; };
+		0D61C12225B145910093B2EB /* UIColor+ColorHex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ColorHex.m"; sourceTree = "<group>"; };
+		0D61C12425B146580093B2EB /* UIButton+zt_adjustImageAndTitle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+zt_adjustImageAndTitle.m"; sourceTree = "<group>"; };
+		0D61C12525B146580093B2EB /* UIButton+zt_adjustImageAndTitle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+zt_adjustImageAndTitle.h"; sourceTree = "<group>"; };
+		0D61C12725B146B10093B2EB /* TheDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TheDefine.h; sourceTree = "<group>"; };
+		0D61C12825B165500093B2EB /* TipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TipView.h; sourceTree = "<group>"; };
+		0D61C12925B165500093B2EB /* TipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TipView.m; sourceTree = "<group>"; };
+		0DF77DBF25B679870076EB52 /* 003.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 003.pdf; sourceTree = "<group>"; };
+		945EC55F5D34DF4A0946655A /* Pods-CAPDFView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CAPDFView.debug.xcconfig"; path = "Target Support Files/Pods-CAPDFView/Pods-CAPDFView.debug.xcconfig"; sourceTree = "<group>"; };
+		A9C59E93666F863C8E1977F7 /* Pods-CAPDFView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CAPDFView.release.xcconfig"; path = "Target Support Files/Pods-CAPDFView/Pods-CAPDFView.release.xcconfig"; sourceTree = "<group>"; };
+		B138236471BBF74E6E2300BF /* libPods-CAPDFView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CAPDFView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3B62376B7463B660E6395C5 /* libPods-CAPDFView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +85,8 @@
 			children = (
 				0D61C0EF25B136F50093B2EB /* CAPDFView */,
 				0D61C0EE25B136F50093B2EB /* Products */,
+				1727A32880812D4AD908522D /* Pods */,
+				A2FD94E7BB374A9E512BD550 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,6 +101,7 @@
 		0D61C0EF25B136F50093B2EB /* CAPDFView */ = {
 			isa = PBXGroup;
 			children = (
+				0D61C12D25B16C880093B2EB /* PDFView */,
 				0D61C0F025B136F50093B2EB /* AppDelegate.h */,
 				0D61C0F125B136F50093B2EB /* AppDelegate.m */,
 				0D61C0F325B136F50093B2EB /* SceneDelegate.h */,
@@ -76,6 +117,68 @@
 			path = CAPDFView;
 			sourceTree = "<group>";
 		};
+		0D61C12D25B16C880093B2EB /* PDFView */ = {
+			isa = PBXGroup;
+			children = (
+				0DF77DBF25B679870076EB52 /* 003.pdf */,
+				0D61C10925B143C30093B2EB /* PDFReadViewController.h */,
+				0D61C10A25B143C30093B2EB /* PDFReadViewController.m */,
+				0D61C12F25B16CB90093B2EB /* View */,
+				0D61C12E25B16C970093B2EB /* Tools */,
+			);
+			path = PDFView;
+			sourceTree = "<group>";
+		};
+		0D61C12E25B16C970093B2EB /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				0D61C12525B146580093B2EB /* UIButton+zt_adjustImageAndTitle.h */,
+				0D61C12425B146580093B2EB /* UIButton+zt_adjustImageAndTitle.m */,
+				0D61C12725B146B10093B2EB /* TheDefine.h */,
+				0D61C12825B165500093B2EB /* TipView.h */,
+				0D61C12925B165500093B2EB /* TipView.m */,
+				0D61C12125B145910093B2EB /* UIColor+ColorHex.h */,
+				0D61C12225B145910093B2EB /* UIColor+ColorHex.m */,
+				0D61C11325B1443B0093B2EB /* PDFImageAnnotation.h */,
+				0D61C11025B1443B0093B2EB /* PDFImageAnnotation.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		0D61C12F25B16CB90093B2EB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0D61C10D25B1443A0093B2EB /* UMPDFOutLineCell.h */,
+				0D61C10F25B1443A0093B2EB /* UMPDFOutLineCell.m */,
+				0D61C10E25B1443A0093B2EB /* UMPDFOutLineView.h */,
+				0D61C11625B1443B0093B2EB /* UMPDFOutLineView.m */,
+				0D61C11425B1443B0093B2EB /* UMPDFSearchView.h */,
+				0D61C11125B1443B0093B2EB /* UMPDFSearchView.m */,
+				0D61C10C25B1443A0093B2EB /* UMReadPDFBottomView.h */,
+				0D61C11825B1443B0093B2EB /* UMReadPDFBottomView.m */,
+				0D61C11225B1443B0093B2EB /* UMReadPDFTopView.h */,
+				0D61C11525B1443B0093B2EB /* UMReadPDFTopView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1727A32880812D4AD908522D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				945EC55F5D34DF4A0946655A /* Pods-CAPDFView.debug.xcconfig */,
+				A9C59E93666F863C8E1977F7 /* Pods-CAPDFView.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A2FD94E7BB374A9E512BD550 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B138236471BBF74E6E2300BF /* libPods-CAPDFView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -83,6 +186,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0D61C10625B136F80093B2EB /* Build configuration list for PBXNativeTarget "CAPDFView" */;
 			buildPhases = (
+				17007707B6EC8930B81C6370 /* [CP] Check Pods Manifest.lock */,
 				0D61C0E925B136F50093B2EB /* Sources */,
 				0D61C0EA25B136F50093B2EB /* Frameworks */,
 				0D61C0EB25B136F50093B2EB /* Resources */,
@@ -135,19 +239,55 @@
 			files = (
 				0D61C10025B136F80093B2EB /* LaunchScreen.storyboard in Resources */,
 				0D61C0FD25B136F80093B2EB /* Assets.xcassets in Resources */,
+				0DF77DC025B679870076EB52 /* 003.pdf in Resources */,
 				0D61C0FB25B136F50093B2EB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		17007707B6EC8930B81C6370 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CAPDFView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0D61C0E925B136F50093B2EB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D61C11E25B1443B0093B2EB /* UMPDFOutLineView.m in Sources */,
+				0D61C12325B145910093B2EB /* UIColor+ColorHex.m in Sources */,
 				0D61C0F825B136F50093B2EB /* ViewController.m in Sources */,
+				0D61C11C25B1443B0093B2EB /* UMPDFSearchView.m in Sources */,
+				0D61C11F25B1443B0093B2EB /* UMReadPDFBottomView.m in Sources */,
+				0D61C11D25B1443B0093B2EB /* UMReadPDFTopView.m in Sources */,
+				0D61C12A25B165500093B2EB /* TipView.m in Sources */,
 				0D61C0F225B136F50093B2EB /* AppDelegate.m in Sources */,
+				0D61C10B25B143C30093B2EB /* PDFReadViewController.m in Sources */,
+				0D61C12625B146590093B2EB /* UIButton+zt_adjustImageAndTitle.m in Sources */,
+				0D61C11B25B1443B0093B2EB /* PDFImageAnnotation.m in Sources */,
+				0D61C11A25B1443B0093B2EB /* UMPDFOutLineCell.m in Sources */,
 				0D61C10325B136F80093B2EB /* main.m in Sources */,
 				0D61C0F525B136F50093B2EB /* SceneDelegate.m in Sources */,
 			);
@@ -287,6 +427,7 @@
 		};
 		0D61C10725B136F80093B2EB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 945EC55F5D34DF4A0946655A /* Pods-CAPDFView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -303,6 +444,7 @@
 		};
 		0D61C10825B136F80093B2EB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9C59E93666F863C8E1977F7 /* Pods-CAPDFView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
